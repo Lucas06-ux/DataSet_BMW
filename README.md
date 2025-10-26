@@ -1,13 +1,17 @@
 # DataSet_BMW
 Repositório que contém o código completo no colab contendo informações de dados dos carros da BMW.
 Os dados foram retirados do kaggle, plataforma que contém diversos DataSets. Foi escolhido especificamente sobre BMW por ser um assunto de gosto pessoal, além de conter boas informações para análise de dados.
-O arquivo foi inserido no colab através do !pip install kagglehub -q, que instala as dependencias do kaggle. Logo em seguida, foi feito o import dele atraves do: 
+O arquivo foi inserido no colab através do: 
 
-import kagglehub
+    !pip install kagglehub -q 
+    
+que instala as dependencias do kaggle. Logo em seguida, foi feito o import dele atraves do: 
+
+    import kagglehub
 # Download latest version of the dataset
-path = kagglehub.dataset_download("ayeshaimran123/bmw-car-data-analysis")
+    path = kagglehub.dataset_download("ayeshaimran123/bmw-car-data-analysis")
 
-print("Path to dataset files:", path)
+    print("Path to dataset files:", path)
 
 
 Esse caminho está disponível no proprio DataSet do site: https://www.kaggle.com/datasets/ayeshaimran123/bmw-car-data-analysis/code
